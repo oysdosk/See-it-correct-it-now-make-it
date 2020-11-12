@@ -3,7 +3,8 @@ footer {
     margin: auto;
     justify-content: center;
     height: 250px;
-    background-color: rgb(67, 65, 65)
+    color: white;
+    background-color: rgb(67, 65, 65);
 }
 
 .links {
