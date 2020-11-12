@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    height: 232px;
+    background-color: rgb(67, 65, 65);
+}
+
+.logo {
+    flex-basis: 15%;
+    padding: 1.5rem 1rem 1rem 1.5rem;
+}
+
+.logo img {
+    width: 170px;
+    height: 216px;
+}
+
+h1 {
+    font-size: 2.25rem;
+    color: white;
+    text-transform: uppercase;
+    padding: 1rem 1rem 1rem 1rem;
+    box-sizing: border-box;
+}

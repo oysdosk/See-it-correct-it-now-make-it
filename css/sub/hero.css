@@ -1,0 +1,29 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.hero h2 {
+    flex-basis: 100%;
+}
+
+.hero p {
+    flex-basis: 100%;
+}
+
+.heroPicture {
+    flex-basis: 100%;
+}
+
+.heroPicture img {
+    width: 85%;
+    height: 80%;
+    object-fit: cover;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+}
