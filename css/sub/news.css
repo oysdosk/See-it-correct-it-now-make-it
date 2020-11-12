@@ -2,7 +2,6 @@
     width: 100%;
     height: 400px;
     box-sizing: border-box;
-    background-color: cornflowerblue;
     display: flex;
     flex-wrap: wrap;
     
