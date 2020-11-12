@@ -2,14 +2,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h2 {
-
-}
-
-h3 {
-
-}
-
 header {
     display: flex;
     margin: auto;
@@ -62,17 +54,10 @@ nav li {
 .container {
     display: flex;
     margin: auto;
+    flex-wrap: wrap;
 }
 
-.col-left-80{
-    flex-basis: 81%;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-main {
+.hero {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -82,31 +67,25 @@ main {
     text-align: center;
 }
 
-main h2 {
+.hero h2 {
     flex-basis: 100%;
 }
 
-main p {
+.hero p {
     flex-basis: 100%;
 }
 
-.mainPicture {
+.heroPicture {
     flex-basis: 100%;
 }
 
-.mainPicture img {
+.heroPicture img {
     width: 85%;
     height: 80%;
     object-fit: cover;
     padding: 10px 10px 10px 10px;
     box-sizing: border-box;
 }
-/*
-@media only screen and (max-width:950px){
-    main img {
-        width: 500px;
-    }
-}*/
 
 .degrees {
     width: 100%;
@@ -131,14 +110,6 @@ main p {
     height: 600px;
     box-sizing: border-box;
     background-color: brown;
-}
-
-.col-right-20 {
-    flex-basis: 19%;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .announcements {
@@ -192,13 +163,12 @@ footer {
 
 footer h4 {
     text-align: center;
-    align-self: flex-start;
 }
 
-footer li {
+footer p {
     text-align: center;
 }
 
 footer li {
-    list-style: none;
+    list-style:none;
 }
