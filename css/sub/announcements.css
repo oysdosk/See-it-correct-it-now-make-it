@@ -3,8 +3,25 @@
     height: 300px;
     box-sizing: border-box;
     background-color: chocolate;
+    display: flex;
+    flex: row wrap;
 }
 
 .announcements h3 {
     text-align: center;
+    text-transform: uppercase;
+}
+
+.announcements p {
+    text-align: center;
+}
+
+.announcementsContent {
+    flex-basis: 50%;
+    border: solid;
+}
+
+.announcementsHeader {
+    flex-basis: 100%;
+    border: solid;
 }
