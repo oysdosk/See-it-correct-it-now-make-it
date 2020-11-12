@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a :link, a :visited {
+    text-decoration: none;
+}
+
+a :hover, a :active {
+    text-decoration: underline;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,47 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
+    
+}
+
+.hero h2 {
+    flex-basis: 100%;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin: 20px 0 0 20px;
+}
+
+#hero1 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin: 0 0 0 20px;
+    
+}
+
+#hero2, #hero3, #hero4 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 20px 0 0 20px;
+    line-height: 2.4rem;
+}
+
+
+.hero p {
+    flex-basis: 100%;
+}
+
+.heroPicture {
+    flex-basis: 100%;
+}
+
+.heroPicture img {
+    width: 85%;
+    height: 80%;
+    object-fit: cover;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+}

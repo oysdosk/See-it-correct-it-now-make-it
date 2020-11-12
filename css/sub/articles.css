@@ -1,0 +1,28 @@
+.articles{
+    width: 100%;
+    height: 600px;
+    background-color: brown;
+}
+
+.articlesHeader {
+    flex-basis: 100%;
+    box-sizing: border-box;
+    border: solid;
+    text-align: center;
+}
+
+.articlesHeader h2 {
+    text-transform: uppercase;
+}
+
+.articlesHeader p {
+    text-transform: uppercase;
+}
+
+#upperHeader {
+    font-size: 1.3rem;
+}
+
+#lowerHeader {
+    font-size: 2.2rem;
+}
