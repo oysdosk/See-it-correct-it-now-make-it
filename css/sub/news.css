@@ -1,10 +1,22 @@
-.newsAndEvents {
+.news {
     width: 100%;
     height: 400px;
     box-sizing: border-box;
     background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
-.newsAndEvents h3 {
-    text-align: center;
+.newsHeader {
+    flex-basis: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsContent {
+    flex-basis: 25%;
+    box-sizing: border-box;
 }

@@ -25,9 +25,12 @@
 .degreesContent {
     flex-basis: 33.33%;
     box-sizing: border-box;
+<<<<<<< HEAD
     border: solid;
 }
 
 .degreesContent h3 {
     text-transform: uppercase;
+=======
+>>>>>>> origin/dev
 }
