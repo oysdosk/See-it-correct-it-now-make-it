@@ -1,0 +1,10 @@
+.announcements {
+    width: 100%;
+    height: 300px;
+    box-sizing: border-box;
+    background-color: chocolate;
+}
+
+.announcements h3 {
+    text-align: center;
+}
