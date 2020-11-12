@@ -1,0 +1,23 @@
+.degrees {
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
+    background-color: cadetblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.degreesHeader {
+    flex-basis: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.degreesContent {
+    flex-basis: 33%;
+    box-sizing: border-box;
+}
+
+.degreesContent h3 {
+    text-align: center;
+}
