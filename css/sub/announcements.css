@@ -11,12 +11,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: rgb(100, 18, 18);
 }
 
 .announcementsContent {
     flex-basis: 50%;
     box-sizing: border-box;
-    color: black;
+    font-size: 1.5rem;
+    color: rgb(17, 71, 102);
+    padding: 0 10px 0 10px;
 }
+
 
 
