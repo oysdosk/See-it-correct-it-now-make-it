@@ -12,6 +12,7 @@ nav ul {
     justify-content: space-around;
     list-style: none;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 nav li {

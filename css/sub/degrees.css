@@ -10,11 +10,13 @@
     flex-basis: 100%;
     box-sizing: border-box;
     text-align: center;
+    color: rgb(100, 18, 18);
 }
 
 .degreesContent {
     flex-basis: 33.33%;
     box-sizing: border-box;
+    color: rgb(17, 71, 102);
 }
 
 .degreesContent h3 {
