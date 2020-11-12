@@ -6,6 +6,15 @@
     flex-wrap: wrap;
 }
 
+.announcementsHeader {
+    flex-basis: 100%;
+    border: solid;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .announcementsContent {
     flex-basis: 50%;
     border: solid;
@@ -13,9 +22,4 @@
     color: black;
 }
 
-.announcementsHeader {
-    flex-basis: 100%;
-    border: solid;
-    box-sizing: border-box;
-    
-}
+
