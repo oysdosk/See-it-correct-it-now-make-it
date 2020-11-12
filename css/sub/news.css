@@ -1,10 +1,6 @@
-.newsAndEvents {
+.news {
     width: 100%;
     height: 400px;
     box-sizing: border-box;
     background-color: cornflowerblue;
-}
-
-.newsAndEvents h3 {
-    text-align: center;
 }
