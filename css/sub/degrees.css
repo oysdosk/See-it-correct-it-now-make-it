@@ -13,6 +13,17 @@
     color: rgb(100, 18, 18);
 }
 
+.degreesHeader h2 {
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
+.degreesHeader p {
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+
 .degreesContent {
     flex-basis: 33.33%;
     box-sizing: border-box;
@@ -21,6 +32,7 @@
 
 .degreesContent h3 {
     text-align: inherit;
+    font-size: 1.8rem;
     padding: 0 20px 0 102px;
     box-sizing: border-box;
 }
@@ -28,6 +40,11 @@
 .degreesContent ul {
     padding: 0 20px 0 120px;
     box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.degreesContent li {
+    font-size: 1.5rem;
 }
 
 .degreesContent ul li::marker {
@@ -41,4 +58,16 @@
     box-sizing: border-box;
     float: left;
     padding: 10px 0 0 30px;
+}
+
+@media only screen and (max-width:1000px){
+    .degreesContent {
+        flex-basis: 50%;
+    }
+}
+
+@media only screen and (max-width:680px){
+    .degreesContent {
+        flex-basis: 100%;
+    }
 }

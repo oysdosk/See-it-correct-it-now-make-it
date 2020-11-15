@@ -2,10 +2,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 h2 {
     text-align: center;
     text-transform: uppercase;
     color: rgb(100, 18, 18);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h3 {
@@ -31,7 +36,7 @@ a :hover, a :active {
     text-decoration: underline;
 }
 
-.header, footer, .degrees, .articles, .announcements, .news {
+.header, .hero, footer, .degrees, .articles, .announcements, .news {
     border-radius: 10px;
     border-bottom: 2px solid;
     border-left: 2px solid;
