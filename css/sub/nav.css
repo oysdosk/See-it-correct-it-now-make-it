@@ -16,6 +16,7 @@ nav ul {
 }
 
 nav li {
+    flex-basis: 12%;
     color: white;
     font-size: 1.25rem;
     border: solid;
@@ -34,4 +35,24 @@ nav li div :hover {
         height: 5px;
         background-color: black;
         margin: 6px 0;
+        overflow: visible;
+}
+
+.dropdown.content {
+        left: initial;
+        
+}
+
+@media only screen and (max-width:800px)
+{
+    nav li {
+        flex-basis: 25%;
+    }
+}
+
+@media only screen and (max-width:500px)
+{
+    nav li {
+        flex-basis: 40%;
+    }
 }
