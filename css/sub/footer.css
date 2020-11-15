@@ -1,0 +1,46 @@
+footer {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    height: 300px;
+    color: white;
+    background-color: rgb(67, 65, 65);
+}
+
+footer a {
+    color: white;
+}
+
+.links, .contact, .social {
+    flex-basis: 33.33%;
+    box-sizing: border-box;
+}
+
+footer h4 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+footer p {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+}
+
+footer li {
+    list-style:none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+@media only screen and (max-width:450px){
+    footer {
+        flex-wrap: wrap;
+        height: 650px;
+    }
+    .links, .contact, .social {
+        flex-basis: 100%;
+    }
+}

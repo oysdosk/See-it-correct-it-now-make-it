@@ -1,0 +1,95 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero h2 {
+    text-align: inherit;
+    flex-basis: 100%;
+    font-size: 6.5rem;
+    text-transform: uppercase;
+    margin: 10px 0 0 20px;
+}
+
+.hero p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: inherit;
+    flex-basis: 100%;
+    align-self: flex-end;
+}
+
+#hero1 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    margin: 0 0 0 20px;
+    color: rgb(29, 28, 28);
+}
+
+#hero2, #hero3, #hero4 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    margin: 250px 0 0 25px;
+    line-height: 4.1rem;
+}
+
+#hero2 {
+    color: rgb(40, 94, 24);
+}
+
+#hero3 {
+    color: rgb(218, 187, 11);
+}
+
+#hero4 {
+    color: rgb(162, 32, 32);
+}
+
+.hero h2, p {
+    z-index: 2;
+}
+
+.heroPicture img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 600px;
+    object-fit: cover;
+    object-position: 30% 10%;
+    opacity: 0.55;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    .hero h2 {
+        text-align: center;
+        font-size: 5rem;
+        margin: 0 0 0 0;
+    }
+    #hero1 {
+        font-size: 3rem;
+    }
+    
+    #hero2, #hero3, #hero4 {
+        font-size: 3.7rem;
+        line-height: 3.1rem;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .hero {
+        height:450px;
+    }
+    #hero1 {
+        font-size: 2rem;
+    }
+    .heroPicture img {
+        object-position: 45%;
+    }
+}

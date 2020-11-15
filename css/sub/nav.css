@@ -1,0 +1,58 @@
+nav {
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-radius: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav li {
+    flex-basis: 12%;
+    color: white;
+    font-size: 1.25rem;
+    border: solid;
+}
+
+nav li :hover {
+    text-decoration: underline;
+}
+
+nav li div :hover {
+    text-decoration: none;
+}
+
+.menubar {
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+        overflow: visible;
+}
+
+.dropdown.content {
+        left: initial;
+        
+}
+
+@media only screen and (max-width:800px)
+{
+    nav li {
+        flex-basis: 25%;
+    }
+}
+
+@media only screen and (max-width:500px)
+{
+    nav li {
+        flex-basis: 40%;
+    }
+}
